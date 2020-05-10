@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch">
+  </include>
+
+
+  <node name="control" pkg="turtlebot_junwoo" type="tt3_control.py">
+  </node>
+
+</launch>
