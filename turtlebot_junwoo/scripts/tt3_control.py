@@ -8,7 +8,7 @@ import numpy as np
 
 from geometry_msgs.msg import Twist, Vector3
 from gazebo_msgs.msg import ModelStates
-from algorithm.msg       import *
+from turtlebot_junwoo.msg     import *
 from tf.transformations  import euler_from_quaternion
 
 
